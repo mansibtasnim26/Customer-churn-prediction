@@ -1,5 +1,3 @@
-# Customer-churn-prediction
-Telco customer churn prediction comparing 4 models (Logistic Regression, Random Forest, XGBoost, CatBoost) across 4 class-imbalance strategies (Original, SMOTE, NearMiss, class weighting). Best result: class-weighted CatBoost with 81% churn recall and 0.84 ROC-AUC.
 # Customer Churn Prediction: A Comparative Study of Class Imbalance Strategies
 
 A machine learning study on the Telco Customer Churn dataset (7,043 customers) that benchmarks 16 model and strategy combinations: Logistic Regression (with PCA), Random Forest, XGBoost and CatBoost, each trained with the original data, SMOTE, NearMiss undersampling and class weighting.
